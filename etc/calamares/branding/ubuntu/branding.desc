@@ -1,0 +1,35 @@
+---
+componentName:  ubuntu
+
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   false
+
+windowExpanding:    fullscreen
+
+strings:
+    productName:         "${NAME}"
+    shortProductName:    Ubuntu
+    version:             24.04 LTS
+    shortVersion:        24.04
+    versionedName:       Ubuntu GNU/Linux 24.04 LTS "Noble Numbat"
+    shortVersionedName:  Ubuntu 24.04
+    bootloaderEntryName: Ubuntu
+    productUrl:          https://calamares.io/
+    supportUrl:          https://github.com/calamares/calamares/wiki
+    knownIssuesUrl:      https://github.com/calamares/calamares/issues
+    releaseNotesUrl:     https://calamares.io/news/
+    donateUrl:           https://kde.org/community/donations/index.php
+
+images:
+    productIcon:         "distributor-logo.svg"
+    productLogo:         "canonical_ubuntu.svg"
+    productWelcome:      "wallpaper.png"
+
+style:
+   SidebarBackground:        "#292F34"
+   SidebarText:              "#FFFFFF"
+   SidebarTextCurrent:       "#292F34"
+   SidebarBackgroundCurrent: "#D35400"
+
+slideshow:               "show.qml"

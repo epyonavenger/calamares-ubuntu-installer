@@ -1,0 +1,12 @@
+Package: calamares-settings-ubuntu
+Version: 0.0.1
+Maintainer: Chris Bergeron <epyon_avenger@chaos-axiom.com>
+Architecture: all
+Depends: calamares
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
+Description: Ubuntu Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Ubuntu.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Ubuntu desktop is installed with the
+ Gnome desktop environment.
